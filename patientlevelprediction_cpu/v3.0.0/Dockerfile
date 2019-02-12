@@ -7,14 +7,14 @@ LABEL org.label-schema.license="Apache 2.0" \
       maintainer="Seng Chan You <applegna@gmail.com>"
 RUN echo deb http://ftp.de.debian.org/debian testing main >> /etc/apt/sources.list
 RUN echo 'APT::Default-Release "stable";' | tee -a /etc/apt/apt.conf.d/00local
-RUN apt-get update && apt-get install -y python3 python3-pip
+RUN apt-get update && apt-get install -y python3 python3-pip python-dev
 RUN pip3 install numpy \
-                  scipy \
-                  h5py \
-                  tensorflow \
-                  keras \
-                  scikit-learn \
-                  torch
+                 scipy \
+                 h5py \
+                 scikit-learn \
+                 tensorflow \
+                 keras \
+                 torch
 
 ## Install OHDSI R packages
 RUN mkdir -p /opt/software/setup/R
