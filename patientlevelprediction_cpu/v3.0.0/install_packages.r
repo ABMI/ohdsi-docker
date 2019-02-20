@@ -6,6 +6,7 @@ install.packages("keras")
 #keras::install_keras()
 
 #install ohdsi tools
+devtools::install_github("ohdsi/OhdsiRTools", ref = "v1.7.0")
 devtools::install_github("ohdsi/SqlRender", ref = "v1.5.2")
 devtools::install_github("ohdsi/DatabaseConnector", ref = "v2.2.0")
 devtools::install_github("ohdsi/OhdsiSharing", ref = "v0.1.3")
