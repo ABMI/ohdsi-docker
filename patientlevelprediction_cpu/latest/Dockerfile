@@ -1,4 +1,4 @@
-FROM rocker/rstudio:3.5.1
+FROM rocker/rstudio:latest
 
 LABEL org.label-schema.license="Apache 2.0" \
       org.label-schema.description="PatientLevelPrediction v3.0.0 environment based on Rocker/verse:3.5.1" \
