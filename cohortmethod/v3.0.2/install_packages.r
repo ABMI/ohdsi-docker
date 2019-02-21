@@ -1,10 +1,6 @@
-<<<<<<< HEAD:cohortmethod/install_packages.r
-=======
 options(repos=structure(c(CRAN="http://cloud.r-project.org/")))
-
 install.packages(c('xml2', 'devtools'), dependencies = T)
 
->>>>>>> change-normal-r:cohortmethod/v3.0.2/install_packages.r
 devtools::install_github("ohdsi/OhdsiRTools", ref = "v1.7.0")
 devtools::install_github("ohdsi/SqlRender", ref = "v1.5.2")
 devtools::install_github("ohdsi/DatabaseConnector", ref = "v2.2.0")
