@@ -11,3 +11,6 @@ docker run --name plp -e USER=user -e PASSWORD=password1 -d -p 8787:8787 chandry
 
 consider to increase the upper limit of file open
 --ulimit nofile= 10000000:10000000
+
+consider to increase C_stack size
+--ulimit stack=8277716992:8277716992
