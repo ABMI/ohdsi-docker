@@ -8,14 +8,13 @@ install.packages("keras")
 #keras::install_keras()
 
 install.packages(c('xml2', 'devtools'), dependencies = T)
-
 #install ohdsi tools
-devtools::install_github("ohdsi/OhdsiRTools", ref = "v1.7.0")
-devtools::install_github("ohdsi/SqlRender", ref = "v1.5.2")
-devtools::install_github("ohdsi/DatabaseConnector", ref = "v2.2.0")
-devtools::install_github("ohdsi/OhdsiSharing", ref = "v0.1.3")
-devtools::install_github("ohdsi/FeatureExtraction", ref = "v2.1.5")
-devtools::install_github("ohdsi/OhdsiRTools", ref= "v1.7.0")
+devtools::install_github("ohdsi/OhdsiRTools")
+devtools::install_github("ohdsi/SqlRender")
+devtools::install_github("ohdsi/DatabaseConnector")
+devtools::install_github("ohdsi/OhdsiSharing")
+devtools::install_github("ohdsi/FeatureExtraction")
+devtools::install_github("ohdsi/OhdsiRTools")
 devtools::install_github("ohdsi/BigKnn")
 
 #install pythonInR and PLP packages
